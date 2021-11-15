@@ -9,7 +9,8 @@ public class PasswordGenerator {
 		short dayBirth= 12;
 		short monthBirth= 5;
 		short yearBirth= 1994;
-		System.out.println(name + "-" + lastName +"-" + favouriteColor + "-" + (dayBirth + monthBirth + yearBirth));
+		int numberBirth=dayBirth + monthBirth + yearBirth;
+		System.out.println(name + "-" + lastName +"-" + favouriteColor + "-" + numberBirth);
 		
 		
 
